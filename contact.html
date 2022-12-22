@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Intot</title>
+  <title>Contáctanos</title>
 
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css"
@@ -39,7 +39,7 @@
           <nav class="navbar navbar-expand-lg custom_nav-container">
             <a class="navbar-brand" href="index.html">
               <span>
-                Intot
+                SanBook
               </span>
             </a>
 
@@ -96,52 +96,23 @@
 
 
     <!-- contact section -->
-    <section class="contact_section layout_padding">
-      <div class="container">
-        <p>
-          Don’t Hesitate To Ask
-        </p>
-        <h2 class="">
-          FREE CONSULTATION
-        </h2>
-      </div>
-      <div class="container">
+    <link rel="stylesheet" href="Contáctanos.css">
 
-        <div class="row">
-          <div class="col-md-6 ">
-            <form action="">
-              <div class="contact_form-container">
-                <div>
-                  <div>
-                    <label>
-                      Name
-                      <input type="text" />
-                    </label>
-                  </div>
-                  <div>
-                    <label>
-                      Email
-                      <input type="email" />
-                    </label>
-                  </div>
-
-                  <div>
-                    <label>
-                      Phone Number
-                      <input type="text" />
-                    </label>
-                  </div>
-
-                  <div>
-                    <label>
-                      Message
-                      <textarea name="" id="" cols="30" rows="10"></textarea>
-                    </label>
-                  </div>
-                  <div class="mt-5">
-                    <button type="submit">
-                      Send
-                    </button>
+  </head>
+  <body>
+      <!--Formulario-->
+  
+  <form class="form"   action="https://formspree.io/f/mgeqnprz"
+  method="POST">
+     <div class="form__container">
+        <h2 class="form__title">Contáctanos</h2>
+        <input type="text" class="form__input" placeholder="Nombre" name="name">
+        <input type="email" class="form__input" placeholder="Email" name="email">
+        <textarea class="form__input form__input--message" placeholder="Mensaje" name="message"></textarea>
+  
+        <input type="submit" value="Enviar" class="form__cta">
+     </div>
+  </form>
                   </div>
                 </div>
               </div>
