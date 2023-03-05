@@ -1,0 +1,12 @@
+nav {
+	position: sticky !important;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+.progress {
+	position: absolute;
+	left: 0;
+	bottom: -15px;
+}
